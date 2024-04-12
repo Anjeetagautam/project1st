@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Outfit:wght@100..900&display=swap');
+*
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6 
+{
+    font-family: "Outfit", sans-serif;
+}
+p
+{
+    line-height: 1.7;
+}
+body
+{
+    font-family: "Inter", sans-serif;
+}
+ul 
+{
+    list-style: none;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+.hero
+ {
+    background: #000816;
+    color: #fff;
+}
+.container
+{
+    max-width: 1280px;
+    margin: auto;
+}
+.flex
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header
+{
+    padding: 30px 0;
+}
+nav ul
+{
+    display: flex;
+    font-size: 20px;
+    gap: 25px;
+}
+nav a
+{
+    color: #fff;
+}
+.btn
+{
+    border: 2px solid #fff;
+    padding: 15px 25px;
+    border-radius: 8px;
+    color: #fff;
+}
+.hero-left h1 
+{
+    font-size: 64px;
+}
+.btn1
+{
+    background: #003BA4;
+    color: #fff;
+    padding: 20px 30px;
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.counter
+{
+    background: #999;
+    color: #fff;
+    padding: 20px;
+}
+.counterflex 
+{
+    display: flex;
+    gap: 30px;
+    margin: 30px 0;
+}
+.client
+{
+    background: #003BA4;
+    color: #fff;
+    padding: 30px 0;
+}
+.services 
+{
+    padding: 50px 0;
+}
+.title
+{
+    text-align: center;
+    padding: 30px 0;
+}
+.sbox 
+{
+    padding: 30px;
+    text-align: center;
+}
+.s
+{
+    background: #F0F5FF;
+}
+.portfolio
+{
+    background: #000816;
+    color: #fff;
+    padding: 80px;
+}
+.pfbody 
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+.pfimage 
+{
+    width: 405px;
+    height: 302px;
+}
+.pfbtn
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.button1 
+{
+    background: #003BA4;
+    color: #FFFFFF;
+    padding: 25px 50px;
+    display: inline-block;
+    border-radius: 15px;
+}
+.testimonials
+{
+    background: #F0F5FF;
+    height: 724px;
+}
+.feedback
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+.feedback1 
+{
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 20px 40px;
+}
+.clientmain 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.clientname 
+{
+    font-weight: bold;
+}
+.threedots 
+{
+    align-items: center;
+    font-size: 30px;
+    color: #414449;
+    padding: 30px;
+}
+.bottom
+{
+    background: #000816;
+    color: #fff;
+    padding: 80px;
+}
+.footer 
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.socialmedia ul
+{
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+}
+.mailbox {
+    position: relative;
+    display: inline-block;
+}
+.sendmail {
+    width: 400px;
+    height: 60px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    background: #19212D;
+    border: none;
+    font-size: 20px;
+}
+.sendbtn {
+    background: #003BA4;
+    color: #FFFFFF;
+    padding: 10px 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+.mailbox i {
+    position: absolute;
+    top: 20px;
+    left: 8px;
+    height: 20px;
+}
